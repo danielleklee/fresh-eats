@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- SCSS stylesheet -->
+        <link rel="stylesheet" type="text/css" href="app.scss">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Montserrat" rel="stylesheet">
+        <title>Fresh Eats</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <img src="assets/media/fresh-eats-logo.png" alt="logo" class="logo">
+                </div>
+                <!-- nav -->
+                <nav>
+                    <ul>
+                        <li><a href="#">On the Menu</a></li>
+                        <li><a href="#">Meal Plans</a></li>
+                        <li><a href="#">Why Fresh Eats</a></li>
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#" class="btn">JOIN</a></li>
+                    </ul>
+                </nav>
+            </div><!-- /nav -->
+        </header>
+        <main>
+            <!-- jumbotron -->
+            <section id="showcase">
+                <div class="container">
+                    <h1>Easy and affordable meals right at your door</h1>
+                    <p>Cook clean,with step-by-step recipes, pre-measured to your own diet of choice</p>
+                    <a href="#" class="btn">GET STARTED</a>
+                </div>
+            </section>
+            <!-- /jumbotron -->
+
+            <!-- How it works -->
+            <section class="how-it-works">
+                <h2>How it works</h2>
+                <div class="container-1">
+                    <div class="box-1">
+                        <h3>CHOOSE</h3>
+                        <img src="assets/media/icon-monitor.png" alt="monitor">
+                        <p>Choose from a wide variety of clean meal plans. It's one click away from weekly simple pre-measured meals.</p>
+                    </div>
+                    <div class="box-2">
+                        <h3>DELIVER & COOK</h3>
+                        <img src="assets/media/icon-truck.png" alt="truck">
+                        <p>Each box comes with step-by-step recipes, along with pictures. Cook dinner in 30 minutes.</p>
+                    </div>
+                    <div class="box-3">
+                        <h3>BON APPETIT</h3>
+                        <img src="assets/media/icon-creditcard.png" alt="box">
+                        <p>You'll be proud of the meals you've made and knowing exactly what ingredients are in it.</p>
+                    </div>
+                </div>
+                <p>Organic ingredients and easy to follow recipes for a meal to warm your heart</p>
+                <a href="#startcooking" class="btn">START COOKING</a>
+            </section>
+            <!-- /How it works-->
+
+            <!-- Meal plans on lifestyle -->
+            <section class="meal-plans">
+                <h2>Meal plans based on your lifestyle</h2>
+                    <!-- Portfolio Gallery Grid -->
+                <div class="row">
+                    <div class="column">
+                    <div class="content">
+                        <img src="assets/media/keto.jpg" alt="keto" style="width:100%">
+                        <h3>KETO</h3>
+                        <p>Lorem ipsum..</p>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="content">
+                        <img src="assets/media/vegetarian.jpg" alt="vegetarian" style="width:100%">
+                        <h3>VEGETARIAN</h3>
+                        <p>Lorem ipsum..</p>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="content">
+                        <img src="assets/media/pescatarian.jpg" alt="pescatarian" style="width:100%">
+                        <h3>PESCATARIAN</h3>
+                        <p>Lorem ipsum..</p>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="content">
+                        <img src="assets/media/vegan.jpg" alt="vegan" style="width:100%">
+                        <h3>VEGAN</h3>
+                        <p>Lorem ipsum..</p>
+                    </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <img src="assets/media/vegan.jpg" alt="vegan" style="width:100%">
+                            <h3>PALEO</h3>
+                            <p>Lorem ipsum..</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <img src="assets/media/vegan.jpg" alt="vegan" style="width:100%">
+                            <h3>PALEO</h3>
+                            <p>Lorem ipsum..</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- /Meal plans on lifestyle -->
+
+            <!-- View our menu -->
+            <section class="view-our-menu">
+                <h2>View our menu</h2>
+                <div class="content"></div>
+            </section>
+            <!-- /View our menu -->
+
+            <!-- Login Sign up -->
+            <section class="login-sign-up">
+                <h2>Sign up</h2>
+            </section>
+            <!-- /Login Sign up -->
+        </main>
+        <!-- footer -->
+        <footer>
+            <p>Fresh Eats, Copyright &copy; 2018</p>
+        </footer>
+        <!-- /footer -->
+    </div>
+    <script>
+        function openSlideMenu(){
+            document.getElementById('side-menu').style.width='250px';
+            document.getElementById('main').style.marginLeft ='250px';
+        }
+        function closeSlideMenu(){
+            document.getElementById('side-menu').style.width='0';
+            document.getElementById('main').style.marginLeft ='0';
+        }
+    </script>
+    </body>
+</html>
